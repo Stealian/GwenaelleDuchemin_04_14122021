@@ -708,6 +708,13 @@ h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
+.text-title {
+    max-width: 613px;
+    margin: auto;
+    font-size: 22px;
+    line-height: 1.4em;
+    text-align: center;
+}
 
 h3 {
     font-size: 15px;
