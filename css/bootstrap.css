@@ -2301,7 +2301,8 @@ pre code {
     .col-sm-7,
     .col-sm-8,
     .col-sm-9 {
-        float: left
+        float: left;
+        width: 75%
     }
     .col-sm-12 {
         width: 100%
@@ -2311,9 +2312,6 @@ pre code {
     }
     .col-sm-10 {
         width: 83.33333333%
-    }
-    .col-sm-9 {
-        width: 75%
     }
     .col-sm-8 {
         width: 66.66666667%

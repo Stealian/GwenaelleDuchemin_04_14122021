@@ -649,7 +649,7 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
+    font-family: "Helvetica";
     font-weight: 400;
     color: #575757!important;
 }
@@ -715,7 +715,12 @@ h2 {
     line-height: 1.4em;
     text-align: center;
 }
-
+.dfn {
+    font-style: italic;
+}
+.text-subtitle{
+    text-align: center;
+}
 h3 {
     font-size: 15px;
     text-transform: uppercase;
