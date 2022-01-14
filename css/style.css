@@ -17,6 +17,7 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
 header,
 main,
 section,
@@ -27,6 +28,7 @@ footer {
     overflow-x: hidden;
     position: relative;
 }
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;

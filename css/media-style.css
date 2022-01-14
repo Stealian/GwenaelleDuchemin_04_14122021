@@ -1,12 +1,12 @@
 /* media */
 
-@media (max-width:425px){
+@media (max-width:425px) {
     a[data-lightbox]:hover::before {
         margin-left: 50%;
     }
 }
 
-@media (min-width:425px) and (max-width:767px){
+@media (min-width:425px) and (max-width:767px) {
     a[data-lightbox]:hover::before {
         margin-left: 40%;
     }
@@ -231,6 +231,7 @@
     a[data-lightbox]:hover::before {
         margin-left: 43%;
     }
+
     .navbar .nav {
         max-width: 80%
     }
