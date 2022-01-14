@@ -19,10 +19,13 @@ a:hover {
 }
 header,
 main,
+section,
 footer {
     margin: 0;
     padding: 0;
     width: 100%;
+    overflow-x: hidden;
+    position: relative;
 }
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -556,7 +559,7 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
+    margin-left: 30%;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -567,7 +570,16 @@ a[data-lightbox]:hover::before {
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
-
+@media (max-width:425px){
+    a[data-lightbox]:hover::before {
+        margin-left: 50%;
+    }
+}
+@media (min-width:425px) and (max-width:768px){
+    a[data-lightbox]:hover::before {
+        margin-left: 40%;
+    }
+}
 a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
@@ -695,7 +707,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    /*max-width: 600px;*/
     margin: auto auto auto auto;
 }
 
@@ -771,6 +783,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 395px;
 }
 
 .portfolio-row {
