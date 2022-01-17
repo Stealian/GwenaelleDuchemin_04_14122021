@@ -524,6 +524,7 @@ a[data-lightbox]:hover::before {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    margin-left: 38%;
 }
 
 a[data-lightbox]:hover img {
