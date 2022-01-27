@@ -1447,17 +1447,18 @@ img {
     vertical-align: middle
 }
 
-.carousel-inner>.item>a>img,
+/*.carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
     display: inline-block;
-    max-width: 320px;
+    width: 395px;
+    max-width: 90%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
 
 .img-rounded {
     border-radius: 6px
