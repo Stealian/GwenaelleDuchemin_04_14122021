@@ -102,7 +102,7 @@ footer {
 }
 
 .texture-paper::before {
-    background: url("../img/texture-paper.png");
+    background: url("../img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -811,11 +811,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("../img/la-chouette-agence-banniere.jpg");
+    background-image: url("../img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("../img/image-de-presentation.jpg");
+    background-image: url("../img/image-de-presentation.webp");
 }
 
 
